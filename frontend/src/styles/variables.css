@@ -1,0 +1,72 @@
+:root {
+  /* Warm cream/off-white background system */
+  --bg-app: #FAF8F5;
+  --bg-surface: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #F3EFEA;
+  --bg-hover: #ECE7E0;
+  --bg-input: #FFFFFF;
+
+  /* Dark charcoal navigation & brand */
+  --sidebar-bg: #18191E;
+  --sidebar-border: #272932;
+  --sidebar-text: #E5E7EB;
+  --sidebar-text-muted: #9CA3AF;
+  --sidebar-hover: #262833;
+  --sidebar-active: #313442;
+
+  /* Text colors */
+  --text-main: #1C1D22;
+  --text-secondary: #5E6270;
+  --text-muted: #8E92A2;
+  --text-inverse: #FFFFFF;
+
+  /* Borders & Dividers */
+  --border-subtle: #E8E3DC;
+  --border-medium: #DDD7CE;
+  --border-focus: #18191E;
+
+  /* Primary Action (Dark Charcoal) */
+  --primary: #18191E;
+  --primary-hover: #292B34;
+  --primary-active: #0F1013;
+  --primary-text: #FFFFFF;
+
+  /* Status & Priority Accents (Stitch Palette) */
+  --accent-coral: #E63946;
+  --accent-coral-bg: #FFF1F2;
+  --accent-coral-border: #FECDD3;
+
+  --accent-yellow: #D97706;
+  --accent-yellow-bg: #FFFBEB;
+  --accent-yellow-border: #FDE68A;
+
+  --accent-blue: #2563EB;
+  --accent-blue-bg: #EFF6FF;
+  --accent-blue-border: #BFDBFE;
+
+  --accent-green: #059669;
+  --accent-green-bg: #ECFDF5;
+  --accent-green-border: #A7F3D0;
+
+  --accent-gray: #64748B;
+  --accent-gray-bg: #F1F5F9;
+  --accent-gray-border: #E2E8F0;
+
+  /* Spacing */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 2px 6px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
+  --shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.03);
+  --shadow-modal: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+}
