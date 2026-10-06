@@ -408,3 +408,31 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Form input sizing */
+.form-input {
+  font-size: 0.875rem;
+}
+
+.form-textarea {
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+.form-select {
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+/* Helper text under form fields */
+.form-helper {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+

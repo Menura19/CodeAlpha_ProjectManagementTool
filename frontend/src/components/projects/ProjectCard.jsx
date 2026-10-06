@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Calendar, Users, LayoutKanban, Edit2, Trash2, ChevronRight } from 'lucide-react';
+import { Calendar, Users, Kanban, Edit2, Trash2, ChevronRight } from 'lucide-react';
 import Avatar from '../common/Avatar';
 import Badge from '../common/Badge';
 
@@ -255,7 +255,7 @@ const ProjectCard = ({ project, currentUserId, onEdit, onDelete, onViewMembers }
           onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#18191E'; e.currentTarget.style.color = '#FFFFFF'; }}
           onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--bg-subtle)'; e.currentTarget.style.color = 'var(--text-secondary)'; }}
         >
-          <LayoutKanban size={13} />
+          <Kanban size={13} />
           Board
         </button>
       </div>
